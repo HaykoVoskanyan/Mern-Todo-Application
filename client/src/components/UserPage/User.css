@@ -1,0 +1,48 @@
+body{
+  background-color: rgba(231, 236, 235, 0.751);
+  font-family:Arial, Helvetica, sans-serif
+}
+.add_user{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: rgb(182, 183, 185);
+  padding: 7px;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.915);
+  margin:0px 81% 10px 0px;
+}
+.add_user i{
+  color:rgba(75, 218, 78, 0.874)
+}
+.User{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  margin: 100px auto;
+  background-color: rgba(255, 255, 255, 0.87);
+  padding: 50px;
+  box-shadow: 0px 0px 1px rgba(0 0 0.65);
+
+}
+table, th, td {
+  border:1px solid rgba(0, 0, 0, 0.696);
+}
+table{
+  width: 600px;
+}
+th{
+  background-color: rgb(57, 145, 157);
+  color: rgba(255, 255, 255, 0.845);
+}
+td{
+  padding: 7px ;
+  color: #323030;
+  font-size: 17px;
+  font-family: monospace;
+}
+td i{
+  margin-left: 10px;
+}
